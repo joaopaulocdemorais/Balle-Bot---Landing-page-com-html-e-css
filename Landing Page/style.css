@@ -16,4 +16,27 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: Sarala, sans-serif;
+    color: #fff2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2E7;
 }
